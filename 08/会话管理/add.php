@@ -13,7 +13,7 @@
             echo '<script>alert("留言板成功");window.history.back(-1);</script>';
 
         }else{
-            echo "<script> alert("kong");window.history.back(-1);</script>";
+           // echo "<script> alert("");window.history.back(-1);</script>";
 
         }
         
