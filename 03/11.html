@@ -3,20 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        @import url(http://192.168.56.101/02/%E5%B1%82%E5%8F%A0%E6%A0%B7%E5%BC%8F%E8%A1%A8/test.css);
+    </style>
     <title>11</title>
 </head>
 <body>
     <script>
         var a = 10;
         var b = 20;
+        // if else   ? :   都是二者选其一 
         if(a>b){
-            document.write("a is bigger");
+            document.write('a is biger');
+
         }else{
-            document.write("b is boger");
+            document.write('<h1>b is biger</h1>');
+            
         }
         document.write('<br>');
-        a>b?document.write('a is biger'):document.write('b is biger');   //实现简单的条件判断比if 更简单   
+
+        a>b?document.write('a is biger'): document.write('<p>b is biger</p>');
         
+
+        
+
+
     </script>
     
 </body>
