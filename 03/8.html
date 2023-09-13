@@ -6,21 +6,23 @@
     <title>8</title>
 </head>
 <body>
-
     <script>
-        var animal = 'cat';
-        switch(animal){
-            case "cat":
-                document.write("this is cat");
-                break ;
-            case "dogkey":
-                document.write("this is dog");
-                break;
-            default:
-                document.write('i dot know');
-        }
-        document.write('<br>正常执行语句')
+        var animal  = 'cat';
+        //我先使用animal的变量传到switch 中   和我们的 case进行比较的 满足条件输出，不满足  继续判断。
 
+        switch(animal){
+            case 'cat':
+                document.write("this is a cat");
+                break;
+            case 'dog':
+                document.write("this is a dog");
+                break;
+            default: 
+                document.write("i do not know!");
+
+
+        }
+        document.write('<br> 正常执行语句');
     </script>
     
 </body>
