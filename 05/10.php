@@ -1,3 +1,26 @@
+
+<?php
+$cars = array('volvo','audi','BMW',123,True);
+echo 'my car is :'.$cars[0].'<br>';
+echo 'my car is :'.$cars[2].'<br>';
+
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
 <?php
 
 $x = 20;
@@ -10,4 +33,4 @@ echo $x;
 //高深的编程中都是对象的操作
 
 
-?>
+?> -->
