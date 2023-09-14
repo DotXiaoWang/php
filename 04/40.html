@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>40</title>
+</head>
+<body>
+    <p>请输入密码 <input type="password" value="111111" id="pw" onblur="checkpw()"></p>
+    <script>
+        function checkpw(){
+            str = document.getElementById('pw').value;
+            if(str.length>=6){
+                //符合长度啥都不做
+            }
+            else{
+                alert('密码小于6位');
+
+            }
+            document.write(str.length);
+        }
+    </script>
+</body>
+</html>

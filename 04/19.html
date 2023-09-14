@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>19</title>
+</head>
+<body>
+    <script>
+        function car(product,price,waiguan,color){
+            this.product= product;
+            this.price = price;
+            this.waiguan = waiguan;
+            this.color = color;
+
+            this.speed = function(){
+                document.write('100kM/h'+'<br>');
+
+            }
+            this.tem1 = function(){
+                document.write('20度'+'<br>');
+
+            }
+            this.tem2 = function(){
+                document.write('15度'+'<br>');
+
+            }
+
+        }
+
+
+    car1 = new car("Audi",100,'SUV','red');
+    document.write(car1.product+'---'+car1.color+'<br>');
+    car1.speed();
+    car1.tem1();
+    car1.tem2();
+
+
+
+    </script>
+
+    
+</body>
+</html>

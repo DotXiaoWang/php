@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>27</title>
+</head>
+<body>
+    <script>
+        var x = [1,2,3,4,'a','b','hhh'];
+        var i ;
+        for(i in x){ //下标
+            document.write('i=',i);
+            document.write(x[i]+'<br>');
+        }
+        document.write('--------------','<br>');
+        var cars = {color:'red',prompt:'audi',weigth:500};
+        for(i in cars){
+            document.write('i=',i);
+            document.write(cars[i],'<br>');
+            document.write(cars.i);//访问自己定义的对象的属性时只能使用键值的方式   
+            
+        }
+
+    </script>
+    
+</body>
+</html>
