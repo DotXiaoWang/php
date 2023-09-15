@@ -18,7 +18,6 @@
         echo $liuyan;
 
 
-    
     }
 
 ?>
