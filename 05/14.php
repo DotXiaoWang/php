@@ -4,7 +4,7 @@
     echo sizeof($cars).'<br>';
 
     $i = 0;
-    for($i;i<count($cars);$i++){
+    for($i;$i<count($cars);$i++){
         echo $cars[$i].'<br>';
     }
     

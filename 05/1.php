@@ -6,25 +6,29 @@
     <title>1</title>
 </head>
 <body>
-    <!-- <p>111111</p>
+    <p>11111</p>
     <script>
         document.write('123');
-    </script>
-<?php
-    echo 'hello world'.'<br>';
-    $a = 111;
-    $A = 'abcdef';
-    echo $a;
-    echo $A;
-?> -->
-<!-- <p>666666</p> -->
-<?php
-echo '123';
-echo '<br>';
-echo '456';
-echo '<br>';
-echo '789';
-?>
 
+    </script>
+
+<p>
+    88888888888888
+</p>
+    
 </body>
 </html>
+
+
+<?php 
+    echo 'hello world!!';  
+    $a  = 111;
+    $b = 'abcdef';
+    echo $a;
+    echo '<br>';
+    echo $b;
+    echo($a);
+
+
+?>
+
