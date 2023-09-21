@@ -1,7 +1,8 @@
 <?php 
-    $username = $_GET['user'];
-    $pass = $_GET['pass'];
-    echo "用户名".$username;
+    $username= $_GET['username'];
+    $passowrd= $_GET['pw'];
+    echo $username;
     echo '<br>';
-    echo "密码".$pass;
+    echo $passowrd;
+
 ?>

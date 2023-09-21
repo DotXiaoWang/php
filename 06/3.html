@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+    <form action="get.php" method="GET">
+        <p>username:</p>
+        <input id="u" type="text" name="user" value="">
+        <p>password:</p>
+        <input type="password" id="p" name="pass" value="">
+        <br>
+        <input type="submit" value="提交" onclick="test()">
+
+    </form>
+    <script>
+        function test(){
+            var user = document.getElementById('u').value;
+            var pass = document.getElementById('p').value;
+            if(user.length==0){
+                alert('用户空');
+                window.history.back(-1);
+            }else if(pass.length==0){
+                alert('密码空');
+            }
+        }
+    </script>
+</body>
+</html>
+
+
