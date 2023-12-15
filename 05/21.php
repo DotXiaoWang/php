@@ -12,4 +12,9 @@
     echo '<br>';
     $arr = explode('123',$a);
     print_r($arr);
+    echo "<br>";
+
+    $x = " 123 ";
+    echo $x;
+    echo trim($x);
 ?>

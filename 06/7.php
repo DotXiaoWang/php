@@ -11,5 +11,6 @@
     echo '属性为'.realpath($fielname).'<br>';
     echo '属性为'.filesize($fielname).'<br>';
     echo '属性为'.date('Y-m-d H:i:s'.filectime($filename));
+    
 
 ?>

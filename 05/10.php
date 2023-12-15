@@ -2,16 +2,9 @@
 <?php
 $cars = array('volvo','audi','BMW',123,True);
 echo 'my car is :'.$cars[0].'<br>';
+echo 'he car is' .$cars[1];
 echo 'my car is :'.$cars[2].'<br>';
-
 ?>
-
-
-
-
-
-
-
 
 
 

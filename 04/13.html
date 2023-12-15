@@ -13,9 +13,23 @@
             //document.write(sum);//  直接输出情况
             return sum;    //返回的情况
         }
-        var result  = add(1,2);
-        document.write(result);
-        console.log(result);
+        // var result  = add(1,2);
+        // document.write(result);
+        // console.log(result);
+
+        //声明 
+        function add1(num1,num2){
+            sum =num1+num2;
+            return sum;
+        }
+
+        //调用函数
+        // add1(2,3);
+
+
+        document.write(add(add1(2,3),3));
+
+        
 
     </script>
 

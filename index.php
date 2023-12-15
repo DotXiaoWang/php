@@ -1,3 +1,5 @@
 <?php
-phpinfo();
+// phpinfo();
+$date="2021";
+echo $date;
 ?>

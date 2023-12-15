@@ -8,12 +8,36 @@
 <body>
 
    <script>
-    var i=0;
-    do{
-        document.write(i);
-        document.write('<br>');
-        i++;
-    }while(i<=10);
+    // var i=0;
+    // do{
+    //     document.write(i);
+    //     document.write('<br>');
+    //     i++;
+    // }while(i<=10);
+    for(var i =1;i<=10;i++){
+        for(var j =1;j<=10;j++){
+            document.write('我是第二层')
+            for(var x = 1;x<=10;x++){
+                document.write("我是第三层");
+                if(x==1){
+                    break;
+                }
+                
+
+            }
+            // if(j==2){
+            //     break;
+            // }
+
+        }
+        
+
+
+
+
+        document.write('我是第一层');
+
+    }
    </script>
     
 </body>
